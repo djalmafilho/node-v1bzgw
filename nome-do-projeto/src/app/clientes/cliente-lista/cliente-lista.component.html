@@ -1,4 +1,4 @@
-<mat-accordion *ngIf="clientes.length > 0">
+<mat-accordion *ngIf="clientes.length >= 1">
   <mat-expansion-panel *ngFor="let cliente of clientes">
     <mat-expansion-panel-header
       >Nome: {{ cliente.nome }}</mat-expansion-panel-header
